@@ -2,30 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3093dc62-4bda-4212-9692-19f5266e40b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/quartz/util/CustomSpringBeanJobFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_collections_google_collections_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_13_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_1_8_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/quartz/util/QuartJobSchedulingListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/bean/system/QuartzConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/quartz/util/QuartzJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springmvc/bean/system/QuartzJobsBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-quartz.xml" />
-      <change type="DELETED" beforePath="D:\Intellijworkspace\J2EE\myTestPro\target\myTestPro-0.0.1-SNAPSHOT\WEB-INF\lib\c3p0-0.9.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Intellijworkspace\J2EE\myTestPro\target\myTestPro-0.0.1-SNAPSHOT\WEB-INF\lib\quartz-2.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Intellijworkspace\J2EE\myTestPro\target\myTestPro-0.0.1-SNAPSHOT\WEB-INF\lib\slf4j-api-1.6.6.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/myTestPro-0.0.1-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/myTestPro-0.0.1-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myTestPro.iml" afterPath="$PROJECT_DIR$/myTestPro.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/myTestPro_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myTestPro_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/myTestPro-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/myTestPro-0.0.1-SNAPSHOT/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myTestPro.iws" />
@@ -870,16 +846,23 @@
       <workItem from="1442060840998" duration="609000" />
       <workItem from="1442061490472" duration="2006000" />
       <workItem from="1442107786476" duration="22100000" />
-      <workItem from="1442133737103" duration="3264000" />
+      <workItem from="1442133737103" duration="3412000" />
     </task>
+    <task id="LOCAL-00001" summary="周日quartz项目未完成版">
+      <created>1442151215027</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1442151215027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27979000" />
+    <option name="totallyTimeSpent" value="28127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="683" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -960,6 +943,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="周日quartz项目未完成版" />
+    <option name="LAST_COMMIT_MESSAGE" value="周日quartz项目未完成版" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
