@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd"
+       default-autowire="byName" default-lazy-init="false">
+
+    <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean" lazy-init="false">
+        <property name="autoStartup" value="true" />
+        <property name="applicationContextSchedulerContextKey" value="applicationContext" />
+        <property name="waitForJobsToCompleteOnShutdown" value="true" />
+        <property name="overwriteExistingJobs" value="true" />
+        <property name="configLocation" value="classpath:quartz.properties" />
+        <property name="quartzProperties">
+            <props>
+                <!--Thread Pool-->
+                <prop key="org.quartz.threadPool.class">org.quartz.simpl.SimpleThreadPool</prop>
+                <prop key="org.quartz.threadPool.threadCount">30</prop>
+            </props>
+        </property>
+        <property name="dataSource">
+            <ref bean="dataSource" />
+        </property>
+        <property name="transactionManager">
+            <ref bean="transactionManager" />
+        </property>
+        <property name="jobFactory">
+            <bean class="com.springmvc.quartz.util.CustomSpringBeanJobFactory" />
+        </property>
+    </bean>
+
+</beans>
